@@ -1,12 +1,12 @@
 body {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 100;
   font-family: 'Helvetica', sans-serif;
-  color: #e5e5e5;
+  color: #ffffff;
   text-align: center;
   margin: 0 40px;
   padding: 10px;
-  background-color: #919191;
+  background-color: #E3D8CC;
 }
 
 .navbar {
@@ -18,10 +18,10 @@ body {
   left: 0;
   right: 0;
   height: 30px;
-  background-color: rgba(87, 87, 87, 0.7);
+  background-color: #6c665996;
   padding: 0;
   z-index: 100;
-  font-size: 14px;
+  font-size: 16px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -48,9 +48,10 @@ body {
   padding: 30px 0px;
   margin: 30px 100px;
   border-radius: 15px;
-  background-color: #9a9a9a;
-  border: 2px transparent;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #aea598a0;
+  border-bottom: 1px solid #8f94c669;
+  border-left: 1px solid #8f94c669;
+  box-shadow: 0 2px 4px #A3998990;
   text-align: center;
   z-index: 999;
 }
@@ -66,33 +67,33 @@ body {
   align-items: center;
   padding: 20px;
   margin: 20px 150px;
-  border: 2px solid #aaaaaa;
+  border-bottom: 1px solid #4f536f69;
+  border-left: 1px solid #4f536f69;
   border-radius: 10px;
-  background-color: #ababab;
+  background-color: #c9c1afa0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
 .project-card p{
   text-align:left;
-  text-indent: 25px;
   line-height: 1.25;
+  color: #f0f0f0;
 }
 
 .project-card:hover {
   transform: scale(1.05);
-  background-color: #9a9a9a;
-  box-shadow: 0;
+  background-color: #4f536f84;
+  text-shadow: 0px;
   border: 0px;
 }
 
 a:hover {
-  color: #e1d2b6;
-  text-shadow: 0 0 5px #f0f0f0;
+  color: #4F536F;
 }
 
 a {
-  color: #edd2a0;
+  color: #79955b;
   text-decoration: none;
 }
 
@@ -106,9 +107,10 @@ a {
   justify-content: space-evenly;
   align-items: center;
   padding: 10px;
-  border: 2px solid #aaaaaa;
+  border-bottom: 1px solid #4f536f69;
+  border-left: 1px solid #4f536f69;
   border-radius: 10px;
-  background-color: #ababab;
+  background-color: #c9c1afa0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   height: 130px;
@@ -117,7 +119,7 @@ a {
 
 .skill-card:hover {
   transform: scale(1.05);
-  background-color: #9a9a9a;
+  background-color: #4f536f84;
   box-shadow: 0;
   border: 0px;
   text-shadow: 0 0 5px #f0f0f0;
@@ -159,7 +161,7 @@ h3 {
   font-weight: 100;
   right:0;
   left:0;
-  color: #e5e5e5db;
+  color: #f0f0f0;
   text-align: center;
 }
 
@@ -169,7 +171,7 @@ h5 {
   font-weight: 100;
   right:0;
   left:0;
-  color: #e5e5e5db;
+  color: #f0f0f0;
   font-family: 'Helvetica', sans-serif;
   text-align:center;
 }
@@ -177,23 +179,24 @@ h5 {
 h2 {
   font-size: 24px;
   font-weight: 100;
-  border-bottom: 1px solid #8b8b8b;
-  text-shadow: 0 0 3px #ccc;
-  color: #e5e5e5;
+  border-bottom: 1px solid #79955b;
+  padding: 5px 15px;
+  text-shadow: 0 0 3px #dfdfdf;
+  color: #f0f0f0;
   font-family: 'Helvetica', sans-serif;
 }
 
 h1 {
   font-size: 20px;
   font-weight: 100;
-  color: #e5e5e5;
+  color: #f0f0f0;
   font-family: 'Helvetica', sans-serif;
 }
 
 h4 {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 100;
-  color: #e5e5e5;
+  color: #f0f0f0;
   font-family: 'Helvetica', sans-serif;
 }
 
@@ -202,7 +205,6 @@ h4 {
   font-size: 17px;
   font-family: 'Helvetica', sans-serif;
   text-align:left;
-  text-indent: 35px;
   line-height: 1.25;
   font-weight: 100;
 }
@@ -211,3 +213,61 @@ h4 {
   color: transparent;
 }
 
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #6c665996;
+  padding: 0;
+  z-index: 100;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  transform: translateX(0);
+}
+
+.sidebar a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+  color: #f0f0f0;
+  text-decoration: none;
+  font-weight: 100;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar a:hover {
+  background-color: #4f536f;
+}
+
+.sidebar.collapsed {
+  transform: translateX(-250px);
+}
+
+.toggle-button {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+  padding: 10px;
+  background-color: #6c665996;
+  border: none;
+  cursor: pointer;
+  color: #f0f0f0;
+  font-weight: 100;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-button:hover {
+  background-color: #4f536f;
+}

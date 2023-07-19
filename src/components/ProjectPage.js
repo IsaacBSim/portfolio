@@ -15,10 +15,11 @@ const ProjectSection = () => {
             by Visual Studio Code, this project represents the culmination of 
             my design and development skills."
             imageSrc="./projectimages/website.png"
+            link = "https://github.com/IsaacBSim/portfolio"
           />
 
           <ProjectCard
-            title="Quantifying Hand Gesture Recognition Device [Parkinson's]"
+            title="Quantifying Hand Gesture Recognition [Parkinson's]"
             description="Arduino device designed to 
             measure and quantify hand gestures for aiding in the diagnosis 
             of Parkinson's disease. With the combined use of sensors 
@@ -31,7 +32,7 @@ const ProjectSection = () => {
           />
 
           <ProjectCard
-            title="Quantifying Tongue Function Measuring Device [ALS]"
+            title="Quantifying Tongue Function Measuring [ALS]"
             description="Arduino device designed to measure and quantify 
             tongue function degradation for aiding in the 
             analysis of ALS (Amyotrophic Lateral Sclerosis) progression. 
